@@ -372,7 +372,7 @@ footer{
     width: max-content;
     margin: 0 0 0 7%;
     padding-bottom: 1%;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .post-section-one{
  width: 100%;
@@ -389,13 +389,13 @@ footer{
 }
 .con-section h2{
     text-align: center;
-    margin: 0 0 ;
+    margin: 5px 0 ;
     text-transform: capitalize;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 } 
 .con-section p{
     opacity: 0.5;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
     text-align: center;
 } 
 /* last job */
@@ -431,7 +431,7 @@ footer{
     background-color: #ededed;
     width: max-content;
     margin: 3% auto;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     padding: 2%;
     border-radius: 15px;
     text-transform: capitalize;
@@ -439,11 +439,11 @@ footer{
 .card p{
     color: #ededed;
     margin: 5% auto;
-    font-size: 0.6rem;
+    font-size: 0.4rem;
 }
 .card img{
     width: 25vw;
-    height: 15vh;
+    height: auto;
     border: 0.5px solid #0396ff;
 }
 /* Clients */
@@ -454,7 +454,7 @@ footer{
 }
 .clients-title{
     margin: 3% 0;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 .Clients-logo{
     width: 100%;
@@ -463,8 +463,8 @@ footer{
     align-items: center;
 }
 .clients-logo img {
-    margin: 0% 3%;
-    width: 15vw;
+    margin: 0% 10px;
+    width: 10vw;
 }
 /* about-me */
 .about-me{
@@ -498,12 +498,18 @@ footer{
 .con-des-about-me h2 {
     margin: 2% 0;
     text-transform: capitalize;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 .con-des-about-me p {
     width: 70%;
     opacity: 0.5;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
+}
+.con-des-about-me ul li  {
+    width: 70%;
+    opacity: 0.5;
+    margin-left: 5px ;
+    font-size: 0.4rem;
 }
 /* contact */
 .contact{
@@ -531,7 +537,7 @@ footer{
 }
 .contact-con-card p {
     padding: 1%;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     text-transform: capitalize;
     font-weight: 600;
     width: 50%;
@@ -540,7 +546,7 @@ footer{
 .contact-con-card span {
     width: 50%;
     padding: 1%;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     text-transform: capitalize;
     font-weight: 200;
     border-bottom: 1px solid #0396ff;
@@ -564,7 +570,7 @@ footer{
     border-bottom: 0.5px #0396ff solid;
     padding-bottom: 1%;
     transition-duration: 300ms;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
 }
 .contact-con-card-or a:hover{
     border: #0396ff 0.5px solid;
