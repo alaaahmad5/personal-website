@@ -1,0 +1,582 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #fdfdfd;
+}
+.hero-section{
+    background-image: url(./img/hero-background.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 1% 0;
+    height: 10vh;
+    position: fixed;
+    background-color: #1e1e1ecf;
+    box-shadow:  10px 10px 100px #191919;
+}   
+.logo{
+    margin: 0 10px;
+}
+.logo img {
+
+}
+.logo p {
+    color: gray;
+}
+.list{
+    margin: 10px 0;
+    width: 65vw;
+}
+.list a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ededed;
+    transition-duration: 300ms;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.list a:hover{
+    color: #0396ff;
+}
+.hero-des{
+    margin: 0 3%;
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-des h1{
+    padding: 10px;
+    color: #0396ff;
+    font-size: 2.8rem;
+    background-color: #19191978;
+    box-shadow:  10px 10px 100px 10px #191919;
+    margin: 35% 0 0;
+} 
+.hero-des h3{
+    padding: 10px;
+    width: 30vw;
+    margin: 5% 0 0;
+    background-color: #ededed5d;
+}
+/* services */
+.services{
+    width: 100vw;
+    height: auto;
+    margin: 5% 0 2%;
+}
+.services h1 {
+    /* text-align: center; */
+    text-transform: uppercase;
+    border-bottom: #191919 1px solid;
+    width: max-content;
+    margin: 0 0 0 7%;
+    padding-bottom: 1%;
+}
+.post-section-one{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin: 5% 0;
+}
+.con-section{
+    width: 30%;
+    height: 30vh;
+    padding: 0 5% ;
+}
+.con-section h2{
+    text-align: center;
+    margin: 0 0 5%;
+    text-transform: capitalize;
+} 
+.con-section p{
+    opacity: 0.5;
+    font-size: 1.2rem;
+    text-align: center;
+} 
+/* last job */
+.last-job{
+    margin: 0 auto;
+    width: 95vw;
+    height: auto;
+    background-color: #191919;
+    padding: 3% 0 ;
+    border-radius: 30px;
+}
+.last-job h1 {
+    text-transform: uppercase;
+    border-bottom: #ededed 1px solid;
+    color: #ededed;
+    width: max-content;
+    margin: 0 5%;
+    padding: 1%;
+}
+.card-con{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5% 0;
+}
+.card{
+    width: 30%;
+    margin: 4% 0;
+    text-align: center;
+}
+.card h3{
+    background-color: #ededed;
+    width: max-content;
+    margin: 3% auto;
+    font-size: 1.5rem;
+    padding: 2%;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+.card p{
+    color: #ededed;
+    margin: 5% auto;
+
+}
+.card img{
+    width: 25vw;
+    height: auto;
+    border: 1px solid #0396ff;
+}
+/* Clients */
+.Clients{
+
+    margin: 10% 0;
+    width: 100vw;
+    text-align: center;
+}
+.clients-title{
+    margin: 3% 0;
+    font-size: 1.2rem;
+}
+.Clients-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clients-logo img {
+    margin: 0% 3%;
+    width: 10%;
+    height: 10%;
+    border-bottom: 1px solid #0396ff;
+    padding-bottom: 5px;
+}
+/* about-me */
+.about-me{
+    width: 100vw;
+    height: 80vh;
+    background-color: #0396ff;
+    display: flex;
+    /* margin: 10% 0; */
+}
+.img-about-me{
+    width: 40%;
+    height: 100%;
+}
+.img-about-me img {
+    width: 110%;
+    height: 120%;
+    border: #000000 0.5px solid;
+    margin: 15% 0 0;
+    border-radius: 30px;
+}
+.des-about-me{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+.con-des-about-me{
+    margin: 5% 0;
+}
+.con-des-about-me h2 {
+    margin: 1% 0;
+    text-transform: capitalize;
+}
+.con-des-about-me p {
+    width: 70%;
+    opacity: 0.5;
+}
+.con-des-about-me ul li  {
+    width: 70%;
+    opacity: 0.5;
+    margin-left: 5px ;
+    font-size: 0.8rem;
+}
+/* contact */
+.contact{
+    margin: 15% 0;
+    width: 100vw;
+    text-align: center;
+
+}
+.contact h1 {
+    
+    font-size: 3rem;
+}
+.contact-con{
+    width: 80vw;
+    background-color:#191919;
+    margin: 5% auto 0;
+    border-radius: 20px;
+    height: 50vh;
+}
+.contact-con-card{
+    padding: 3%  ;
+    display: flex;
+    justify-content: center;
+    color: #ededed;
+}
+.contact-con-card p {
+    padding: 1%;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    width: 50%;
+    border-bottom: 1px solid #0396ff;
+}
+.contact-con-card span {
+    width: 50%;
+    padding: 1%;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 200;
+    border-bottom: 1px solid #0396ff;
+
+}
+.contact-con-card-or  {
+    /* height: 30%; */
+}
+.contact-con-card-or h3{
+    color: #ededed;
+    margin: 0 0 2%;
+    text-transform: capitalize;
+} 
+.contact-con-card-or a {
+    color: #0396ff;
+    margin: 0% 2%;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: 0.5px #0396ff solid;
+    padding-bottom: 1%;
+    transition-duration: 300ms;
+}
+.contact-con-card-or a:hover{
+    border: #0396ff 0.5px solid;
+    padding: 1%;
+}
+/* footer */
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    text-transform: capitalize;
+    border-top: 2px solid #191919;
+}
+@media screen and (max-width:600px) {
+    .hero-section{
+    background-image: url(./img/hero-background.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 35vh;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 1% 0;
+    height: 5vh;
+    position: fixed;
+    background-color: #1e1e1ecf;
+    box-shadow:  10px 10px 100px #191919;
+}  
+.logo{
+    margin: 0 5px;
+}
+.logo img {
+    width: 60%;
+}
+.logo p {
+    color: gray;
+    font-size: 0.4rem;
+}
+.list{
+    margin: 10px 0;
+    width: 95vw;
+}
+.list a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ededed;
+    transition-duration: 300ms;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 0.4rem;
+}
+.list a:hover{
+    color: #0396ff;
+}
+.hero-des{
+    margin: 0 2%;
+    height: 30vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-des h1{
+    padding: 5px;
+    color: #0396ff;
+    font-size: 0.9rem;
+    background-color: #19191978;
+    box-shadow:  10px 10px 100px 10px #191919;
+    margin: 35% 0 0;
+} 
+.hero-des h3{
+    padding: 10px;
+    width: 30vw;
+    margin: 5% 0 0;
+    background-color: #ededed5d;
+    font-size: 0.5rem;
+}
+/* services */
+.services{
+    width: 100vw;
+    height: auto;
+    margin: 5% 0 10% ;
+}
+.services h1 {
+    /* text-align: center; */
+    text-transform: uppercase;
+    border-bottom: #191919 1px solid;
+    width: max-content;
+    margin: 0 0 0 7%;
+    padding-bottom: 1%;
+    font-size: 1rem;
+}
+.post-section-one{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ margin:  0;
+}
+.con-section{
+    width: 30%;
+    height: auto;
+    margin: 5% 0 ;
+    padding: 0 1% ;
+}
+.con-section h2{
+    text-align: center;
+    margin: 0 0 ;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+} 
+.con-section p{
+    opacity: 0.5;
+    font-size: 0.5rem;
+    text-align: center;
+} 
+/* last job */
+.last-job{
+    margin: 0 auto;
+    width: 95vw;
+    height: auto;
+    background-color: #191919;
+    padding: 3% 0 ;
+    border-radius: 30px;
+}
+.last-job h1 {
+    text-transform: uppercase;
+    border-bottom: #ededed 1px solid;
+    color: #ededed;
+    width: max-content;
+    margin: 0 5%;
+    padding: 1%;
+    font-size: 1rem;
+}
+.card-con{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5% 0;
+}
+.card{
+    width: 30%;
+    margin: 4% 0;
+    text-align: center;
+}
+.card h3{
+    background-color: #ededed;
+    width: max-content;
+    margin: 3% auto;
+    font-size: 0.7rem;
+    padding: 2%;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+.card p{
+    color: #ededed;
+    margin: 5% auto;
+    font-size: 0.6rem;
+}
+.card img{
+    width: 25vw;
+    height: 15vh;
+    border: 0.5px solid #0396ff;
+}
+/* Clients */
+.Clients{
+    margin: 5% 0;
+    width: 100vw;
+    text-align: center;
+}
+.clients-title{
+    margin: 3% 0;
+    font-size: 0.7rem;
+}
+.Clients-logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clients-logo img {
+    margin: 0% 3%;
+    width: 15vw;
+}
+/* about-me */
+.about-me{
+    width: 100vw;
+    height: 40vh;
+    background-color: #0396ff;
+    display: flex;
+    /* margin: 10% 0; */
+}
+.img-about-me{
+    width: 50%;
+    height: 100%;
+}
+.img-about-me img {
+    width: 90%;
+    height: 30vh;
+    border: #000000 2px solid;
+    margin: 15% 0 0;
+}
+.des-about-me{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+.con-des-about-me{
+    margin: 5% 0;
+}
+.con-des-about-me h2 {
+    margin: 2% 0;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+.con-des-about-me p {
+    width: 70%;
+    opacity: 0.5;
+    font-size: 0.5rem;
+}
+/* contact */
+.contact{
+    margin: 15% 0;
+    width: 100vw;
+    text-align: center;
+
+}
+.contact h1 {
+    
+    font-size: 1.5rem;
+}
+.contact-con{
+    width: 80vw;
+    background-color:#191919;
+    margin: 5% auto 0;
+    border-radius: 20px;
+    height: 20vh;
+}
+.contact-con-card{
+    padding: 3%  ;
+    display: flex;
+    justify-content: center;
+    color: #ededed;
+}
+.contact-con-card p {
+    padding: 1%;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    width: 50%;
+    border-bottom: 1px solid #0396ff;
+}
+.contact-con-card span {
+    width: 50%;
+    padding: 1%;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    font-weight: 200;
+    border-bottom: 1px solid #0396ff;
+
+}
+.contact-con-card-or  {
+    /* height: 30%; */
+    margin: 5% 0 0;
+}
+.contact-con-card-or h3{
+    color: #ededed;
+    margin: 2% 0 2%;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+} 
+.contact-con-card-or a {
+    color: #0396ff;
+    margin: 0% 2%;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-bottom: 0.5px #0396ff solid;
+    padding-bottom: 1%;
+    transition-duration: 300ms;
+    font-size: 0.5rem;
+}
+.contact-con-card-or a:hover{
+    border: #0396ff 0.5px solid;
+    padding: 1%;
+}
+/* footer */
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    text-transform: capitalize;
+    border-top: 2px solid #191919;
+    font-size: 0.7rem;
+}
+}
